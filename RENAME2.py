@@ -13,7 +13,7 @@ for root, dirs, files in os.walk(diretorio, topdown=False):
         pasta_renamed = destino+"\\"+source_dir+"-renamed"
         #print(pasta_renamed)
         file_name = caminho.split('\\',)[-1]
-        file_renamed = "GDC_"+source_dir+"_"+file_name
+        file_renamed = "pattern_"+source_dir+"_"+file_name
         #print(file_renamed)
         if os.path.isdir(pasta_renamed):
             print("O diretório existe!")
